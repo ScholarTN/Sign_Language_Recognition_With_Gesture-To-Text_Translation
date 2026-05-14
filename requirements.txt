@@ -1,0 +1,27 @@
+# ASL Sign Language Recognition — Dependencies
+# Install with:  pip install -r requirements.txt
+
+# Deep learning
+torch
+torchvision
+torchaudio
+
+# Computer vision
+opencv-python
+
+# NLP
+transformers
+nltk
+language_tool_python
+spacy
+
+# Data / ML utilities
+scikit-learn
+editdistance
+numpy
+matplotlib
+seaborn
+Pillow
+
+# Kaggle CLI (for dataset download)
+kaggle

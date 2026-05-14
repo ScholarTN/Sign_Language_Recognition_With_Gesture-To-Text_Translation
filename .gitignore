@@ -1,0 +1,39 @@
+# ── Virtual environment ──────────────────────────
+venv/
+.venv/
+env/
+
+# ── Dataset (large, never commit) ────────────────
+asl_data/
+*.zip
+
+# ── Kaggle credentials (sensitive!) ──────────────
+kaggle.json
+*.json
+
+# ── Model weights (large binaries) ───────────────
+outputs/*.pth
+*.pth
+
+# ── Python cache ─────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# ── Jupyter checkpoints ───────────────────────────
+.ipynb_checkpoints/
+
+# ── OS junk ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── VS Code ──────────────────────────────────────
+.vscode/
+
+# ── nltk / spacy downloads (auto-downloaded) ─────
+nltk_data/
+
+# ── Log files ────────────────────────────────────
+*.log
